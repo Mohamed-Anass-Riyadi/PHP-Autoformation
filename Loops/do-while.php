@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+    
 <?php
-$i = 2;
-while($i <= 3){
-	$i++;
+$i = 1;
+do{
+    $i++;
     echo "The number is " . $i . "<br>";
 }
+while($i <= 3);
 ?>
 </body>
 </html>
