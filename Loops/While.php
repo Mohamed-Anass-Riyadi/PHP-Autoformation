@@ -13,6 +13,7 @@ while($i <= 3){
 	$i++;
     echo "The number is " . $i . "<br>";
 }
+
 ?>
 </body>
 </html>
