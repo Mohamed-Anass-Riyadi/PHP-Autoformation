@@ -18,14 +18,12 @@ print_r($colors);
 <br>
 <!-- 2nd methode -->
 <?php
-<?php
 $colors[0] = "Red"; 
 $colors[1] = "Green"; 
 $colors[2] = "Blue";
 
 // Printing array structure
 print_r($colors); 
-?>
 ?>
 </body>
 </html>
