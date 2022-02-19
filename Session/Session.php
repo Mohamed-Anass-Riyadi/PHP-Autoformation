@@ -17,14 +17,18 @@ session_start();
 </form>
 
     <?php
-    
+
     $name = $_POST['username'] ?? '';
     $pass = $_POST['password'] ?? '';
 
     if(isset($_POST['btn'])){
         if(empty($name) || ($pass)){
             echo "<span style= color:red> CHAMP </span>";
+        }else{
+            echo $_SESSION['user'] = $name;
+
         }
+
     }
 
     ?>
